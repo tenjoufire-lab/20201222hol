@@ -35,5 +35,8 @@ captionString NTEXT
 - BCP コマンド
 bcp captions in VTTNAME -S SERVERNAME.database.windows.net -d DBNAME -U test -P Microsoft2020 -q -c -t ,
 
+- 変換スクリプトサンプル(exe)
+https://katsujimemail.blob.core.windows.net/email/TKC様_VTTファイル変換スクリプトサンプル.zip
+
 - DB 内の確認
 SELECT * FROM captions
