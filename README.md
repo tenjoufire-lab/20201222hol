@@ -22,8 +22,8 @@ dotnet new console
 dotnet run
 
 - DB 作成時のユーザとパスワード
--- user:test
--- pass:Microsoft2020
+user: test
+pass: Microsoft2020
 
 - DB テーブル作成
 CREATE TABLE captions(
@@ -34,3 +34,6 @@ captionString NTEXT
 
 - BCP コマンド
 bcp captions in VTTNAME -S SERVERNAME.database.windows.net -d DBNAME -U test -P Microsoft2020 -q -c -t ,
+
+- DB 内の確認
+SELECT * FROM captions
