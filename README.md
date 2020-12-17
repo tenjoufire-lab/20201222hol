@@ -1,5 +1,8 @@
 # 20201222hol
 
+- Google Chrome のインストール
+https://www.google.co.jp/chrome/
+
 - Visual Studio Code インストール
 https://code.visualstudio.com/
 
