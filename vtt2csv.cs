@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 
-namespace vtt2json
+namespace project
 {
     class Program
     {
