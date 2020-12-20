@@ -15,6 +15,9 @@ https://dotnet.microsoft.com/download
 - Microsoft Stream 
 https://msit.microsoftstream.com/
 
+- Azure Storage Explorer
+https://azure.microsoft.com/ja-jp/features/storage-explorer/
+
 - C# プロジェクト作成時のコマンド：
 dotnet new console
 
