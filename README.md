@@ -36,7 +36,7 @@ captionString NTEXT
 );
 
 - BCP コマンド
-bcp captions in VTTFILENAME -S SERVERNAME.database.windows.net -d DBNAME -U test -P Microsoft2020 -q -c -t ,
+bcp captions in CSVFILENAME -S SERVERNAME.database.windows.net -d DBNAME -U test -P Microsoft2020 -q -c -t ,
 
 - DB 内の確認
 SELECT * FROM captions
