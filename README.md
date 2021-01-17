@@ -15,6 +15,12 @@ https://dotnet.microsoft.com/download
 - Microsoft Stream 
 https://msit.microsoftstream.com/
 
+- Froms
+https://forms.office.com/
+
+- Power Automate
+https://flow.microsoft.com/ja-jp/
+
 - Azure Storage Explorer
 https://azure.microsoft.com/ja-jp/features/storage-explorer/
 
