@@ -47,6 +47,9 @@ bcp captions in CSVFILENAME -S SERVERNAME.database.windows.net -d DBNAME -U test
 - DB 内の確認
 SELECT * FROM captions
 
+- Power Automate 変数の初期化
+split(body('functions'),',')
+
 
 
 - 変換スクリプトサンプル(exe)
