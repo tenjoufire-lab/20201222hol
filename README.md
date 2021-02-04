@@ -41,7 +41,7 @@ bcp captions in CSVFILENAME -S SERVERNAME.database.windows.net -d DBNAME -U test
 - DB 内の確認
 SELECT * FROM captions
 
--sqlcmd を使う場合
+- sqlcmd を使う場合
 sqlcmd -S server -U user -P password -d database
 
 - Power Automate 変数の初期化
