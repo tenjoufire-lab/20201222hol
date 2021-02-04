@@ -26,7 +26,7 @@ https://azure.microsoft.com/ja-jp/features/storage-explorer/
 
 - DB 作成時のユーザとパスワード
 user: test
-pass: Microsoft2020
+pass: Microsoft2021
 
 - DB テーブル作成
 CREATE TABLE captions(
@@ -36,7 +36,7 @@ captionString NTEXT
 );
 
 - BCP コマンド
-bcp captions in CSVFILENAME -S SERVERNAME.database.windows.net -d DBNAME -U test -P Microsoft2020 -q -c -t ,
+bcp captions in CSVFILENAME -S SERVERNAME.database.windows.net -d DBNAME -U test -P Microsoft2021 -q -c -t ,
 
 - DB 内の確認
 SELECT * FROM captions
