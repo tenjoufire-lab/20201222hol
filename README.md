@@ -36,13 +36,13 @@ captionString NTEXT
 );
 
 - BCP コマンド
-bcp captions in CSVFILENAME -S SERVERNAME.database.windows.net -d DBNAME -U test -P Microsoft2021 -q -c -t ,
+bcp captions in CSVFILENAME -S SERVERNAME.database.windows.net -d DBNAME -U test -q -c -t ,
 
 - DB 内の確認
 SELECT * FROM captions
 
 - sqlcmd を使う場合
-sqlcmd -S server -U user -P password -d database
+sqlcmd -S server -U user -d database
 
 - Power Automate 変数の初期化
 split(body('functions'),',')
