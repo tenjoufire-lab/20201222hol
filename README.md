@@ -24,12 +24,6 @@ https://flow.microsoft.com/ja-jp/
 - Azure Storage Explorer
 https://azure.microsoft.com/ja-jp/features/storage-explorer/
 
-- C# プロジェクト作成時のコマンド：
-dotnet new console
-
-- C# プロジェクト実行時のコマンド：
-dotnet run
-
 - DB 作成時のユーザとパスワード
 user: test
 pass: Microsoft2020
